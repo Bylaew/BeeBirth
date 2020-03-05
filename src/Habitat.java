@@ -43,8 +43,8 @@ public class Habitat {
         painter.setSize(JFwidth + 200, JFheight + 200);
         painter.setLocation(200, 200);
         painter.setBackground(Color.white);
-        timerLabel = new JLabel(); //строка таймера
-        timerLabel.setBounds(10, JFheight, 700, 15); // положение таймера
+        timerLabel = new JLabel();
+        timerLabel.setBounds(10, JFheight, 700, 15);
         timerLabel.setText("Время: " + " Drones: " + maleAmount + " Workers: " + workerAmount);
         timerLabel.setFont(new Font("Times New Roman", Font.BOLD, 16));
         myFrame.add(timerLabel);
