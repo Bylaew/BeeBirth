@@ -16,7 +16,7 @@ public class BeeMale extends Bee {
         try {
             img = ImageIO.read(new File("MaleBee.png"));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Bitch!");
         }
     }
 

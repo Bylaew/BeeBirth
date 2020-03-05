@@ -6,11 +6,12 @@ public class Main extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(width,height);
         setLayout(null);
-        //setContentPane(new JPanel());
+        setContentPane(new JPanel());
         setVisible(true);
     }
 
     public static void main(String[] args){
-        Habitat habitat = new Habitat(800,600,1,1,0.3f,0.5f);
+        Habitat habitat = new Habitat(1024,768,1,1,30,80);
+        habitat.init();
     }
 }

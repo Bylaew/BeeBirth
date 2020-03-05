@@ -1,2 +1,0 @@
-# BeeBirth
-Lab Work

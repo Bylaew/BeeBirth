@@ -16,7 +16,7 @@ public class BeeWorker extends Bee {
         try {
             img = ImageIO.read(new File("WorkerBee.png"));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Fuck");
         }
     }
 
@@ -25,4 +25,3 @@ public class BeeWorker extends Bee {
         return img;
     }
 }
-
